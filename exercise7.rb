@@ -22,3 +22,14 @@ puts
 puts
 
 #step 3
+
+puts students.keys
+puts 
+puts 
+
+#step 4
+
+def grow(big)
+	big.each {|x, y| puts x.to_s + " " + (y * 1.05).to_s}
+end
+grow(students)
