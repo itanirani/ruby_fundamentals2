@@ -6,11 +6,18 @@ def temperature(argument)
 	result2 = result * 5
 	
 	result3 = result2/9
-	puts result3
+	
 end 
 
 
 puts "What's the temp?"
-faren = gets.chomp
-temperature(faren)
 
+
+faren = gets.chomp
+
+
+
+celcius = temperature(faren) 
+
+puts celcius 
+# celcius = temperature(fa)
