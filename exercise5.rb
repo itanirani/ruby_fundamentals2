@@ -11,13 +11,7 @@ end
 
 
 puts "What's the temp?"
-
-
 faren = gets.chomp
-
-
-
 celcius = temperature(faren) 
+puts "the temperture in celcius is #{celcius}" 
 
-puts celcius 
-# celcius = temperature(fa)
