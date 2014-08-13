@@ -29,4 +29,12 @@ end
 puts grocery_list[1]
 
 # step 6
-puts grocery_list.sort
+listdisplay grocery_list.sort
+
+#step 7 
+
+grocery_list.delete("salmon")
+listdisplay grocery_list.sort
+
+
+
