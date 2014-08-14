@@ -30,6 +30,18 @@ puts
 #step 4
 
 def grow(big)
-	big.each {|x, y| puts x.to_s + " " + (y * 1.05).to_s}
+	big.each do |x, y| 
+		growth_of_5 = x.to_s + " " + (y * 1.05).to_s
+		students = growth_of_5
+		puts students
+	end 
 end
 grow(students)
+students = growth_of_5
+
+# def change(students)
+# 	students.each do |key,fkd|
+# 	students[key] = grow [key]
+# 	end
+# end
+# change(students)
